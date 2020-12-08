@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Network.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="TcpClient.cpp" />
+    <ClCompile Include="tcp\connection.cpp" />
+    <ClCompile Include="tcp\connection_manage.cpp" />
+    <ClCompile Include="tcp\reply.cpp" />
+    <ClCompile Include="tcp\request_handler.cpp" />
+    <ClCompile Include="tcp\TcpServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="log\ZLogger.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="protocol\protocol.h" />
+    <ClInclude Include="TcpClient.h" />
+    <ClInclude Include="tcp\connection.hpp" />
+    <ClInclude Include="tcp\connection_manage.hpp" />
+    <ClInclude Include="tcp\reply.hpp" />
+    <ClInclude Include="tcp\request_handler.hpp" />
+    <ClInclude Include="tcp\TcpServer.h" />
+    <ClInclude Include="protocol\common_def.h" />
+  </ItemGroup>
+</Project>

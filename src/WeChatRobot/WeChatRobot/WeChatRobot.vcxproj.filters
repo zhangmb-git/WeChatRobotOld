@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{4b68a325-c1cc-40c7-b587-b005f75e485b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{819c4fcd-b199-4f8b-8cb5-cf6519762fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{f98712f3-d10c-4870-8bf0-1fcb69078c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\登陆窗口">
+      <UniqueIdentifier>{2a2cdfc5-e48a-46dc-a9d6-1c6a1c1da7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\功能大全">
+      <UniqueIdentifier>{cf13cba3-0048-4828-9832-53b1fa18d624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\功能大全\个人信息">
+      <UniqueIdentifier>{1893610a-444d-43b3-9d38-ac949a886f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\功能大全\功能窗口">
+      <UniqueIdentifier>{1c2d0d7d-9764-4d79-b880-cb4516cb9b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\功能大全\解密图片">
+      <UniqueIdentifier>{8e6a5c4b-f36e-4bfc-8bd8-dda5fa0613ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\功能大全\无限多开">
+      <UniqueIdentifier>{744c6196-1c9e-4599-84a0-174a0cad9551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\功能大全\添加好友">
+      <UniqueIdentifier>{e631ad46-5b2a-4b1b-a64a-89521bc01283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\功能大全\打开微信浏览器">
+      <UniqueIdentifier>{29b883c2-a143-4bbf-b2db-db10231b897e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表">
+      <UniqueIdentifier>{4b8d265e-eb85-4bc0-b70b-94f16ada0131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\发送消息">
+      <UniqueIdentifier>{ce3d11ea-50a8-4102-8fcc-c78b434c93e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\好友列表">
+      <UniqueIdentifier>{57cae96b-b9d4-43d4-9876-e35d0bb96af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\群公告">
+      <UniqueIdentifier>{fff76411-4c4e-45e2-9f78-4f1415ed1b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\添加群成员">
+      <UniqueIdentifier>{8a5c963d-2c38-41e6-9a59-03463cb86c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\发送群消息">
+      <UniqueIdentifier>{8a54e999-85be-4a2e-82e3-5e6b96d4cfac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\发送名片">
+      <UniqueIdentifier>{d73b7219-e423-4e13-b7d9-891557925620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\查看群成员">
+      <UniqueIdentifier>{04f0e374-4481-4bc2-8bb2-1953a1f1081f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\查看群成员\发送艾特消息">
+      <UniqueIdentifier>{e6129c08-a16f-4b2b-a5d6-6956224e905c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\查看群成员\查看群成员">
+      <UniqueIdentifier>{f3300f15-5b33-45cd-9fda-d0ed9bd2efdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\好友列表\修改群名称">
+      <UniqueIdentifier>{c056225b-cdec-4635-b153-e64128b4878b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\聊天记录">
+      <UniqueIdentifier>{1434472e-7d72-4ace-9c79-2de3a3719841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\选项卡">
+      <UniqueIdentifier>{87653f1f-3e27-49a5-9f2c-91b13f46eb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\注入器">
+      <UniqueIdentifier>{193408ff-e557-4e8f-a7f7-14adeb59a41c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ui\主窗口">
+      <UniqueIdentifier>{e972c32d-5869-46fe-b699-7294185d45db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{b0fda58e-25c3-402f-9111-4378839dfa93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\http">
+      <UniqueIdentifier>{3037003c-69fd-4fab-aa00-4ef1292f2973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pangmao">
+      <UniqueIdentifier>{5317a92e-e548-4b07-b4de-a5e574562033}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WeChatRobotDlg.h">
+      <Filter>ui\登陆窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="CInjectTools.h">
+      <Filter>ui\注入器</Filter>
+    </ClInclude>
+    <ClInclude Include="CChatRecords.h">
+      <Filter>ui\聊天记录</Filter>
+    </ClInclude>
+    <ClInclude Include="CMain.h">
+      <Filter>ui\主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTableCtrl.h">
+      <Filter>ui\选项卡</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendMsg.h">
+      <Filter>ui\好友列表\发送消息</Filter>
+    </ClInclude>
+    <ClInclude Include="CInformation.h">
+      <Filter>ui\功能大全\个人信息</Filter>
+    </ClInclude>
+    <ClInclude Include="CFriendList.h">
+      <Filter>ui\好友列表\好友列表</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoomAnnouncement.h">
+      <Filter>ui\好友列表\群公告</Filter>
+    </ClInclude>
+    <ClInclude Include="CFunctions.h">
+      <Filter>ui\功能大全\功能窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="CDecryptImage.h">
+      <Filter>ui\功能大全\解密图片</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddChatRoomMember.h">
+      <Filter>ui\好友列表\添加群成员</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendRoomMsg.h">
+      <Filter>ui\好友列表\发送群消息</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendXmlCard.h">
+      <Filter>ui\好友列表\发送名片</Filter>
+    </ClInclude>
+    <ClInclude Include="CMultiOpen.h">
+      <Filter>ui\功能大全\无限多开</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddUser.h">
+      <Filter>ui\功能大全\添加好友</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetRoomName.h">
+      <Filter>ui\好友列表\修改群名称</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendChatRoomAt.h">
+      <Filter>ui\好友列表\查看群成员\发送艾特消息</Filter>
+    </ClInclude>
+    <ClInclude Include="CChatRoomMember.h">
+      <Filter>ui\好友列表\查看群成员\查看群成员</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenUrl.h">
+      <Filter>ui\功能大全\打开微信浏览器</Filter>
+    </ClInclude>
+    <ClInclude Include="common\HttpClient.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\IniOperation.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\public_define.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="CSysConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common_thread.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\netlib.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\task_mgr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread_pool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\BaseSocket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SslSocket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ostype.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\rbtree.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\EventDispatch.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="common\http_parser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\HttpParserWrapper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\UtilPdu.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Base64.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ZLogger.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>ui\主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="api\MsgReceive.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\http\HttpConn.h">
+      <Filter>api\http</Filter>
+    </ClInclude>
+    <ClInclude Include="api\http\HttpServer.h">
+      <Filter>api\http</Filter>
+    </ClInclude>
+    <ClInclude Include="api\http\MsgPush.h">
+      <Filter>api\http</Filter>
+    </ClInclude>
+    <ClInclude Include="pangmao\COnlineCat.h">
+      <Filter>pangmao</Filter>
+    </ClInclude>
+    <ClInclude Include="pangmao\GroupTask.h">
+      <Filter>pangmao</Filter>
+    </ClInclude>
+    <ClInclude Include="pangmao\MsgTrafficControl.h">
+      <Filter>pangmao</Filter>
+    </ClInclude>
+    <ClInclude Include="pangmao\MsgHelper.h">
+      <Filter>pangmao</Filter>
+    </ClInclude>
+    <ClInclude Include="api\MsgManager.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="pangmao\MsgAutoForward.h">
+      <Filter>pangmao</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SafeQueue.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SingletonImpl.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="pangmao\NickNameTask.h">
+      <Filter>pangmao</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WeChatRobotDlg.cpp">
+      <Filter>ui\登陆窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CInjectTools.cpp">
+      <Filter>ui\注入器</Filter>
+    </ClCompile>
+    <ClCompile Include="CChatRecords.cpp">
+      <Filter>ui\聊天记录</Filter>
+    </ClCompile>
+    <ClCompile Include="CMain.cpp">
+      <Filter>ui\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTableCtrl.cpp">
+      <Filter>ui\选项卡</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendMsg.cpp">
+      <Filter>ui\好友列表\发送消息</Filter>
+    </ClCompile>
+    <ClCompile Include="CInformation.cpp">
+      <Filter>ui\功能大全\个人信息</Filter>
+    </ClCompile>
+    <ClCompile Include="CFriendList.cpp">
+      <Filter>ui\好友列表\好友列表</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoomAnnouncement.cpp">
+      <Filter>ui\好友列表\群公告</Filter>
+    </ClCompile>
+    <ClCompile Include="CFunctions.cpp">
+      <Filter>ui\功能大全\功能窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="CDecryptImage.cpp">
+      <Filter>ui\功能大全\解密图片</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddChatRoomMember.cpp">
+      <Filter>ui\好友列表\添加群成员</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendRoomMsg.cpp">
+      <Filter>ui\好友列表\发送群消息</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendXmlCard.cpp">
+      <Filter>ui\好友列表\发送名片</Filter>
+    </ClCompile>
+    <ClCompile Include="CMultiOpen.cpp">
+      <Filter>ui\功能大全\无限多开</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddUser.cpp">
+      <Filter>ui\功能大全\添加好友</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetRoomName.cpp">
+      <Filter>ui\好友列表\修改群名称</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendChatRoomAt.cpp">
+      <Filter>ui\好友列表\查看群成员\发送艾特消息</Filter>
+    </ClCompile>
+    <ClCompile Include="CChatRoomMember.cpp">
+      <Filter>ui\好友列表\查看群成员\查看群成员</Filter>
+    </ClCompile>
+    <ClCompile Include="COpenUrl.cpp">
+      <Filter>ui\功能大全\打开微信浏览器</Filter>
+    </ClCompile>
+    <ClCompile Include="common\HttpClient.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\IniOperation.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="CSysConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\netlib.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\task_mgr.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\thread_pool.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\BaseSocket.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\SslSocket.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\rbtree.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file_util.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\EventDispatch.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\util.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="common\public_define.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\http_parser.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\HttpParserWrapper.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\UtilPdu.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Base64.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MsgReceive.cpp">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\http\HttpConn.cpp">
+      <Filter>api\http</Filter>
+    </ClCompile>
+    <ClCompile Include="api\http\HttpServer.cpp">
+      <Filter>api\http</Filter>
+    </ClCompile>
+    <ClCompile Include="api\http\MsgPush.cpp">
+      <Filter>api\http</Filter>
+    </ClCompile>
+    <ClCompile Include="pangmao\COnlineCat.cpp">
+      <Filter>pangmao</Filter>
+    </ClCompile>
+    <ClCompile Include="pangmao\GroupTask.cpp">
+      <Filter>pangmao</Filter>
+    </ClCompile>
+    <ClCompile Include="pangmao\MsgTrafficControl.cpp">
+      <Filter>pangmao</Filter>
+    </ClCompile>
+    <ClCompile Include="pangmao\MsgHelper.cpp">
+      <Filter>pangmao</Filter>
+    </ClCompile>
+    <ClCompile Include="api\MsgManager.cpp">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="pangmao\MsgAutoForward.cpp">
+      <Filter>pangmao</Filter>
+    </ClCompile>
+    <ClCompile Include="pangmao\NickNameTask.cpp">
+      <Filter>pangmao</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WeChatRobot.rc">
+      <Filter>ui\资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WeChatRobot.rc2">
+      <Filter>ui\资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WeChat.ico">
+      <Filter>ui\资源文件</Filter>
+    </Image>
+    <Image Include="res\pay.bmp">
+      <Filter>ui\资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
